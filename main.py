@@ -3,3 +3,6 @@ import pandas as pd
 df = pd.read_csv('data.csv')
 df.head(10)
 df.info()
+
+for i in range(i):
+    print(i)

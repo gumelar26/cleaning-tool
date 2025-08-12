@@ -6,3 +6,6 @@ def another_math():
 
 def another_math_1():
     pass
+
+def another_math_2():
+    pass

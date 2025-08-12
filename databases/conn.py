@@ -3,3 +3,6 @@ def conn_mysql():
 
 def conn_postgres():
     pass
+
+def conn_sql_server():
+    pass

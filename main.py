@@ -1,5 +1,5 @@
 import pandas as pd
 
 df = pd.read_csv('data.csv')
-df.head()
+df.head(5)
 df.info()

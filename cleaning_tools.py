@@ -1,7 +1,7 @@
 file = open('pendaftaran.log')
 output = open('pendaftaran.csv', 'w')
 
-def process_data () :
+def process_data() :
     for line in file:
         bagian = line.split(" | ")
         tanggal = bagian[0].replace('"',"")
@@ -18,3 +18,5 @@ def process_data () :
 
     file.close()
     output.close()
+
+process_data()
